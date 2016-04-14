@@ -1,0 +1,16 @@
+body {
+  background-color: white; }
+
+.container {
+  border: 1px solid lightblue;
+  margin: 10px;
+  width: 500px; }
+
+section {
+  color: white;
+  font-size: 20px;
+  background-color: lightblue;
+  padding: 20px; }
+
+p {
+  padding: 30px; }

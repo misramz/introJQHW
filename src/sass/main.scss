@@ -1,0 +1,32 @@
+
+$tColor: white;
+$bColor: lightblue;
+
+body {
+  background-color: $tColor;
+}
+
+@mixin topBorder ($size, $color) {
+  border: $size solid $color;
+  margin: 10px;
+  //padding: 50px 0;
+
+}
+
+.container {
+  @include topBorder(1px, $bColor);
+  width: 500px;
+}
+
+
+
+section {
+  color: $tColor;
+  font-size: 20px;
+  background-color: $bColor;
+  padding: 20px;
+}
+
+p {
+  padding: 30px;
+}
