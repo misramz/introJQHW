@@ -25,8 +25,13 @@ section {
   font-size: 20px;
   background-color: $bColor;
   padding: 20px;
+  cursor: hoverover
 }
 
 p {
   padding: 30px;
+}
+
+.hidden {
+  height: 63px;
 }

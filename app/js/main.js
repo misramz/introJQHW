@@ -19,8 +19,8 @@ function hideEverything () {
     if (shown) {
 // if it is shown, hide it
   console.log('it was already shown, so we hid it');
-  $(body).addClass('hidden');
-  $(body).removeClass('shown');
+  $(para).addClass('hidden');
+  $(para ).removeClass('shown');
 } else {
 // if it's hidden, show it
   console.log('it was hidden, so we showed it');
