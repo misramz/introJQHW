@@ -25,13 +25,19 @@ section {
   font-size: 20px;
   background-color: $bColor;
   padding: 20px;
-  cursor: hoverover
+  cursor: pointer;
 }
 
 p {
-  padding: 30px;
+  padding: 0px;
 }
 
 .hidden {
-  height: 63px;
+  height: 0px;
+  overflow: hidden;
+}
+
+.shown {
+  height: 50px;
+  overflow: auto;
 }
